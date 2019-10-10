@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:numitron_driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -58,10 +59,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 2450 3950 2450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5D91C224
 P 3150 2950
-F 0 "#PWR?" H 3150 2700 50  0001 C CNN
+F 0 "#PWR0101" H 3150 2700 50  0001 C CNN
 F 1 "GND" H 3300 2850 50  0000 C CNN
 F 2 "" H 3150 2950 50  0001 C CNN
 F 3 "" H 3150 2950 50  0001 C CNN
@@ -69,26 +70,22 @@ F 3 "" H 3150 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Male J0
+L Connector_Generic_MountingPin:Conn_02x04_Odd_Even_MountingPin J0
 U 1 1 5D91CB5D
-P 1850 2000
-F 0 "J0" H 1958 2481 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 1958 2390 50  0000 C CNN
-F 2 "" H 1850 2000 50  0001 C CNN
-F 3 "~" H 1850 2000 50  0001 C CNN
-	1    1850 2000
+P 1850 1950
+F 0 "J0" H 1850 2250 50  0000 C CNN
+F 1 "Conn_02x04_Male" H 2150 2150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1850 1950 50  0001 C CNN
+F 3 "~" H 1850 1950 50  0001 C CNN
+	1    1850 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 1700 2550 1700
-Wire Wire Line
-	2550 1700 2550 1300
 $Comp
 L Device:C C0
 U 1 1 5D920A01
 P 2700 1450
 F 0 "C0" H 2815 1496 50  0000 L CNN
-F 1 "100nF" H 2815 1405 50  0000 L CNN
+F 1 "0.1uF" H 2815 1405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 1300 50  0001 C CNN
 F 3 "~" H 2700 1450 50  0001 C CNN
 	1    2700 1450
@@ -99,48 +96,9 @@ Wire Wire Line
 	3450 1300 3450 1550
 Wire Wire Line
 	3450 1300 4150 1300
-Wire Wire Line
-	2950 1750 2850 1750
-Wire Wire Line
-	2850 1750 2850 1900
-Wire Wire Line
-	2050 1900 2850 1900
-Wire Wire Line
-	2950 1950 2850 1950
-Wire Wire Line
-	2850 1950 2850 2000
-Wire Wire Line
-	2050 2000 2850 2000
-Wire Wire Line
-	2950 2050 2850 2050
-Wire Wire Line
-	2850 2050 2850 2100
-Wire Wire Line
-	2050 2100 2850 2100
-Wire Wire Line
-	2850 2200 2850 2250
-Wire Wire Line
-	2850 2250 2950 2250
-Wire Wire Line
-	2050 2200 2850 2200
-Wire Wire Line
-	2050 2300 2850 2300
-Wire Wire Line
-	2850 2300 2850 2350
-Wire Wire Line
-	2850 2350 2950 2350
 Connection ~ 2700 1300
 Wire Wire Line
-	2700 1300 2550 1300
-Wire Wire Line
 	2700 1300 3450 1300
-Wire Wire Line
-	2700 1600 2700 1800
-Wire Wire Line
-	2700 1800 2050 1800
-Wire Wire Line
-	2700 1800 2700 2950
-Connection ~ 2700 1800
 Wire Wire Line
 	2700 2950 3150 2950
 Connection ~ 3150 2950
@@ -149,7 +107,38 @@ Wire Wire Line
 Wire Wire Line
 	3950 2650 3950 3150
 Wire Wire Line
-	3950 3150 2050 3150
+	3950 3150 2150 3150
 Wire Wire Line
-	2050 3150 2050 2400
+	1650 1300 2700 1300
+Wire Wire Line
+	2700 1600 2700 1850
+Wire Wire Line
+	2150 2150 2150 3150
+Wire Wire Line
+	2150 1850 2700 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	2700 1850 2700 2950
+Wire Wire Line
+	2150 1950 2950 1950
+Wire Wire Line
+	2150 2050 2950 2050
+Wire Wire Line
+	1650 1850 1650 1300
+Wire Wire Line
+	2950 1750 1550 1750
+Wire Wire Line
+	1550 1750 1550 1950
+Wire Wire Line
+	1550 1950 1650 1950
+Wire Wire Line
+	1650 2250 1650 2150
+Wire Wire Line
+	1650 2250 2950 2250
+Wire Wire Line
+	1650 2050 1550 2050
+Wire Wire Line
+	1550 2050 1550 2350
+Wire Wire Line
+	1550 2350 2950 2350
 $EndSCHEMATC
