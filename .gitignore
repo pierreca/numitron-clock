@@ -1,4 +1,5 @@
 **/fp-info-cache
 **/**.sch-bak
+**/**.pcb-bak
 .DS_Store
 *cache.lib
