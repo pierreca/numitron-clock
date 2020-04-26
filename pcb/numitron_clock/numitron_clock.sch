@@ -1,0 +1,751 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_Expansion:TPIC6595 U0
+U 1 1 5D8C4F3C
+P 3450 2000
+F 0 "U0" H 3550 2650 50  0000 C CNN
+F 1 "TPIC6595" H 3650 2550 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4100 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpic6595.pdf" H 3450 1950 50  0001 C CNN
+	1    3450 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2700 3150 2800
+Wire Wire Line
+	3350 2700 3350 2800
+$Comp
+L Connector:Conn_01x09_Female J0
+U 1 1 5D8DB2C8
+P 4350 1900
+F 0 "J0" H 4300 2450 50  0000 L CNN
+F 1 "IV-9" H 4300 2350 50  0000 L CNN
+F 2 "numitron_clock:NUM_IV-9" H 4350 1900 50  0001 C CNN
+F 3 "~" H 4350 1900 50  0001 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1500 4150 1150
+Wire Wire Line
+	4150 1600 3950 1600
+Wire Wire Line
+	4150 1700 3950 1700
+Wire Wire Line
+	4150 1800 3950 1800
+Wire Wire Line
+	4150 1900 3950 1900
+Wire Wire Line
+	4150 2000 3950 2000
+Wire Wire Line
+	4150 2100 3950 2100
+Wire Wire Line
+	4150 2200 3950 2200
+Wire Wire Line
+	4150 2300 3950 2300
+$Comp
+L Device:C C0
+U 1 1 5D920A01
+P 3350 2950
+F 0 "C0" H 3150 3000 50  0000 L CNN
+F 1 "0.1uF" H 3050 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3388 2800 50  0001 C CNN
+F 3 "~" H 3350 2950 50  0001 C CNN
+	1    3350 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 1150 3450 1400
+Wire Wire Line
+	3450 1150 4150 1150
+Wire Wire Line
+	3150 2800 3350 2800
+$Comp
+L Interface_Expansion:TPIC6595 U1
+U 1 1 5DA0B22D
+P 5350 2000
+F 0 "U1" H 5450 2650 50  0000 C CNN
+F 1 "TPIC6595" H 5550 2550 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 6000 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpic6595.pdf" H 5350 1950 50  0001 C CNN
+	1    5350 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2700 5050 2800
+Wire Wire Line
+	5250 2700 5250 2800
+$Comp
+L Connector:Conn_01x09_Female J1
+U 1 1 5DA0B235
+P 6250 1900
+F 0 "J1" H 6200 2450 50  0000 L CNN
+F 1 "IV-9" H 6200 2350 50  0000 L CNN
+F 2 "numitron_clock:NUM_IV-9" H 6250 1900 50  0001 C CNN
+F 3 "~" H 6250 1900 50  0001 C CNN
+	1    6250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1500 6050 1150
+Wire Wire Line
+	6050 1600 5850 1600
+Wire Wire Line
+	6050 1700 5850 1700
+Wire Wire Line
+	6050 1800 5850 1800
+Wire Wire Line
+	6050 1900 5850 1900
+Wire Wire Line
+	6050 2000 5850 2000
+Wire Wire Line
+	6050 2100 5850 2100
+Wire Wire Line
+	6050 2200 5850 2200
+Wire Wire Line
+	6050 2300 5850 2300
+$Comp
+L Device:C C1
+U 1 1 5DA0B24A
+P 5250 2950
+F 0 "C1" H 5350 3000 50  0000 L CNN
+F 1 "0.1uF" H 5350 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 2800 50  0001 C CNN
+F 3 "~" H 5250 2950 50  0001 C CNN
+	1    5250 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 5350 1150
+Wire Wire Line
+	5350 1150 5350 1400
+Wire Wire Line
+	5350 1150 6050 1150
+Connection ~ 5050 2800
+Wire Wire Line
+	5050 2800 5250 2800
+$Comp
+L Interface_Expansion:TPIC6595 U2
+U 1 1 5DA0DFBC
+P 7250 2000
+F 0 "U2" H 7350 2650 50  0000 C CNN
+F 1 "TPIC6595" H 7450 2550 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 7900 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpic6595.pdf" H 7250 1950 50  0001 C CNN
+	1    7250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2700 6950 2800
+Wire Wire Line
+	7150 2700 7150 2800
+$Comp
+L Connector:Conn_01x09_Female J2
+U 1 1 5DA0DFC4
+P 8150 1900
+F 0 "J2" H 8100 2450 50  0000 L CNN
+F 1 "IV-9" H 8100 2350 50  0000 L CNN
+F 2 "numitron_clock:NUM_IV-9" H 8150 1900 50  0001 C CNN
+F 3 "~" H 8150 1900 50  0001 C CNN
+	1    8150 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1500 7950 1150
+Wire Wire Line
+	7950 1600 7750 1600
+Wire Wire Line
+	7950 1700 7750 1700
+Wire Wire Line
+	7950 1800 7750 1800
+Wire Wire Line
+	7950 1900 7750 1900
+Wire Wire Line
+	7950 2000 7750 2000
+Wire Wire Line
+	7950 2100 7750 2100
+Wire Wire Line
+	7950 2200 7750 2200
+Wire Wire Line
+	7950 2300 7750 2300
+$Comp
+L Device:C C2
+U 1 1 5DA0DFD9
+P 7150 2950
+F 0 "C2" H 7250 3000 50  0000 L CNN
+F 1 "0.1uF" H 7250 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7188 2800 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    7150 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 7250 1150
+Wire Wire Line
+	7250 1150 7250 1400
+Wire Wire Line
+	7250 1150 7950 1150
+Connection ~ 6950 2800
+Wire Wire Line
+	6950 2800 7150 2800
+$Comp
+L Interface_Expansion:TPIC6595 U3
+U 1 1 5DA128F6
+P 9150 2000
+F 0 "U3" H 9250 2650 50  0000 C CNN
+F 1 "TPIC6595" H 9350 2550 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 9800 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpic6595.pdf" H 9150 1950 50  0001 C CNN
+	1    9150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2700 8850 2800
+Wire Wire Line
+	9050 2700 9050 2800
+$Comp
+L Connector:Conn_01x09_Female J3
+U 1 1 5DA128FE
+P 10050 1900
+F 0 "J3" H 10000 2450 50  0000 L CNN
+F 1 "IV-9" H 10000 2350 50  0000 L CNN
+F 2 "numitron_clock:NUM_IV-9" H 10050 1900 50  0001 C CNN
+F 3 "~" H 10050 1900 50  0001 C CNN
+	1    10050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 1500 9850 1150
+Wire Wire Line
+	9850 1600 9650 1600
+Wire Wire Line
+	9850 1700 9650 1700
+Wire Wire Line
+	9850 1800 9650 1800
+Wire Wire Line
+	9850 1900 9650 1900
+Wire Wire Line
+	9850 2000 9650 2000
+Wire Wire Line
+	9850 2100 9650 2100
+Wire Wire Line
+	9850 2200 9650 2200
+Wire Wire Line
+	9850 2300 9650 2300
+$Comp
+L Device:C C3
+U 1 1 5DA12913
+P 9050 2950
+F 0 "C3" H 9165 2996 50  0000 L CNN
+F 1 "0.1uF" H 9165 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9088 2800 50  0001 C CNN
+F 3 "~" H 9050 2950 50  0001 C CNN
+	1    9050 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 9150 1150
+Wire Wire Line
+	9150 1150 9150 1400
+Wire Wire Line
+	9150 1150 9850 1150
+Connection ~ 8850 2800
+Wire Wire Line
+	8850 2800 9050 2800
+$Comp
+L Interface_Expansion:TPIC6595 U4
+U 1 1 5DA16EF9
+P 11050 2000
+F 0 "U4" H 11150 2650 50  0000 C CNN
+F 1 "TPIC6595" H 11250 2550 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 11700 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpic6595.pdf" H 11050 1950 50  0001 C CNN
+	1    11050 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 2700 10750 2800
+Wire Wire Line
+	10950 2700 10950 2800
+$Comp
+L Connector:Conn_01x09_Female J4
+U 1 1 5DA16F01
+P 11950 1900
+F 0 "J4" H 11900 2450 50  0000 L CNN
+F 1 "IV-9" H 11900 2350 50  0000 L CNN
+F 2 "numitron_clock:NUM_IV-9" H 11950 1900 50  0001 C CNN
+F 3 "~" H 11950 1900 50  0001 C CNN
+	1    11950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 1500 11750 1150
+Wire Wire Line
+	11750 1600 11550 1600
+Wire Wire Line
+	11750 1700 11550 1700
+Wire Wire Line
+	11750 1800 11550 1800
+Wire Wire Line
+	11750 1900 11550 1900
+Wire Wire Line
+	11750 2000 11550 2000
+Wire Wire Line
+	11750 2100 11550 2100
+Wire Wire Line
+	11750 2200 11550 2200
+Wire Wire Line
+	11750 2300 11550 2300
+$Comp
+L Device:C C4
+U 1 1 5DA16F16
+P 10950 2950
+F 0 "C4" H 11065 2996 50  0000 L CNN
+F 1 "0.1uF" H 11065 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10988 2800 50  0001 C CNN
+F 3 "~" H 10950 2950 50  0001 C CNN
+	1    10950 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 11050 1150
+Wire Wire Line
+	11050 1150 11050 1400
+Wire Wire Line
+	11050 1150 11750 1150
+Connection ~ 10750 2800
+Wire Wire Line
+	10750 2800 10950 2800
+$Comp
+L Interface_Expansion:TPIC6595 U5
+U 1 1 5DA48310
+P 12950 2000
+F 0 "U5" H 13050 2650 50  0000 C CNN
+F 1 "TPIC6595" H 13150 2550 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 13600 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpic6595.pdf" H 12950 1950 50  0001 C CNN
+	1    12950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 2700 12650 2800
+Wire Wire Line
+	12850 2700 12850 2800
+$Comp
+L Connector:Conn_01x09_Female J5
+U 1 1 5DA48318
+P 13850 1900
+F 0 "J5" H 13800 2450 50  0000 L CNN
+F 1 "IV-9" H 13800 2350 50  0000 L CNN
+F 2 "numitron_clock:NUM_IV-9" H 13850 1900 50  0001 C CNN
+F 3 "~" H 13850 1900 50  0001 C CNN
+	1    13850 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 1500 13650 1150
+Wire Wire Line
+	13650 1600 13450 1600
+Wire Wire Line
+	13650 1700 13450 1700
+Wire Wire Line
+	13650 1800 13450 1800
+Wire Wire Line
+	13650 1900 13450 1900
+Wire Wire Line
+	13650 2000 13450 2000
+Wire Wire Line
+	13650 2100 13450 2100
+Wire Wire Line
+	13650 2200 13450 2200
+Wire Wire Line
+	13650 2300 13450 2300
+$Comp
+L Device:C C5
+U 1 1 5DA4832D
+P 12850 2950
+F 0 "C5" H 12965 2996 50  0000 L CNN
+F 1 "0.1uF" H 12965 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12888 2800 50  0001 C CNN
+F 3 "~" H 12850 2950 50  0001 C CNN
+	1    12850 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 12950 1150
+Wire Wire Line
+	12950 1150 12950 1400
+Wire Wire Line
+	12950 1150 13650 1150
+Connection ~ 12650 2800
+Wire Wire Line
+	12650 2800 12850 2800
+Connection ~ 4150 1150
+Connection ~ 6050 1150
+Connection ~ 7950 1150
+Connection ~ 9850 1150
+Connection ~ 11750 1150
+$Comp
+L arduino_nano:Arduino_Nano A0
+U 1 1 5DA70C6F
+P 4050 4850
+F 0 "A0" H 4075 6187 60  0000 C CNN
+F 1 "Arduino_Nano" H 4075 6081 60  0000 C CNN
+F 2 "" H 4050 4850 60  0000 C CNN
+F 3 "" H 4050 4850 60  0000 C CNN
+	1    4050 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 2800
+Connection ~ 5250 2800
+Connection ~ 7150 2800
+Connection ~ 9050 2800
+Connection ~ 10950 2800
+NoConn ~ 3400 4550
+NoConn ~ 3400 4400
+Wire Wire Line
+	3950 2500 4400 2500
+Wire Wire Line
+	5850 2500 6300 2500
+Wire Wire Line
+	9650 2500 10100 2500
+NoConn ~ 13450 2500
+$Comp
+L power:GND #PWR0101
+U 1 1 5D91C224
+P 2550 3550
+F 0 "#PWR0101" H 2550 3300 50  0001 C CNN
+F 1 "GND" H 2550 3400 50  0000 C CNN
+F 2 "" H 2550 3550 50  0001 C CNN
+F 3 "" H 2550 3550 50  0001 C CNN
+	1    2550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1150 5350 1150
+Wire Wire Line
+	5250 2800 5700 2800
+Wire Wire Line
+	7150 2800 8850 2800
+Wire Wire Line
+	9050 2800 10750 2800
+Wire Wire Line
+	10950 2800 12650 2800
+Wire Wire Line
+	6050 1150 7250 1150
+Wire Wire Line
+	7950 1150 9150 1150
+Wire Wire Line
+	7150 3100 5250 3100
+Wire Wire Line
+	3350 3100 5250 3100
+Connection ~ 5250 3100
+Connection ~ 12850 2800
+Wire Wire Line
+	12850 3100 10950 3100
+Wire Wire Line
+	9850 1150 11050 1150
+Wire Wire Line
+	11750 1150 12950 1150
+Wire Wire Line
+	10950 3100 9050 3100
+Connection ~ 10950 3100
+Wire Wire Line
+	9050 3100 7150 3100
+Connection ~ 9050 3100
+Connection ~ 7150 3100
+Wire Wire Line
+	3400 4200 3350 4200
+Wire Wire Line
+	3350 4200 3350 3450
+Connection ~ 3350 3100
+Wire Wire Line
+	12850 3100 14200 3100
+Wire Wire Line
+	14200 3100 14200 1150
+Wire Wire Line
+	14200 1150 13650 1150
+Connection ~ 12850 3100
+Connection ~ 13650 1150
+Wire Wire Line
+	3150 2800 3150 3550
+Wire Wire Line
+	3150 5750 3400 5750
+Connection ~ 3150 2800
+Text GLabel 2850 1900 0    50   Input ~ 0
+SRCLR
+Text GLabel 2850 2100 0    50   Input ~ 0
+LATCH
+Text GLabel 2850 2200 0    50   Input ~ 0
+OE
+Text GLabel 2850 1800 0    50   Input ~ 0
+SRCLK
+Wire Wire Line
+	4400 1600 4400 2500
+Wire Wire Line
+	4400 1600 4850 1600
+Wire Wire Line
+	6300 1600 6300 2500
+Wire Wire Line
+	6300 1600 6750 1600
+Wire Wire Line
+	2850 1800 2950 1800
+Wire Wire Line
+	2850 1900 2950 1900
+Wire Wire Line
+	2850 2100 2950 2100
+Wire Wire Line
+	2850 2200 2950 2200
+Text GLabel 4750 1900 0    50   Input ~ 0
+SRCLR
+Text GLabel 4750 2100 0    50   Input ~ 0
+LATCH
+Text GLabel 4750 2200 0    50   Input ~ 0
+OE
+Text GLabel 4750 1800 0    50   Input ~ 0
+SRCLK
+Wire Wire Line
+	4750 1800 4850 1800
+Wire Wire Line
+	4750 1900 4850 1900
+Wire Wire Line
+	4750 2100 4850 2100
+Wire Wire Line
+	4750 2200 4850 2200
+Text GLabel 6650 1900 0    50   Input ~ 0
+SRCLR
+Text GLabel 6650 2100 0    50   Input ~ 0
+LATCH
+Text GLabel 6650 2200 0    50   Input ~ 0
+OE
+Text GLabel 6650 1800 0    50   Input ~ 0
+SRCLK
+Wire Wire Line
+	6650 1800 6750 1800
+Wire Wire Line
+	6650 1900 6750 1900
+Wire Wire Line
+	6650 2100 6750 2100
+Wire Wire Line
+	6650 2200 6750 2200
+Wire Wire Line
+	8200 1600 8200 2500
+Wire Wire Line
+	8200 2500 7750 2500
+Wire Wire Line
+	10100 1600 10100 2500
+Wire Wire Line
+	12000 1600 12000 2500
+Wire Wire Line
+	12000 2500 11550 2500
+Wire Wire Line
+	12000 1600 12450 1600
+Wire Wire Line
+	10100 1600 10550 1600
+Wire Wire Line
+	8200 1600 8650 1600
+Text GLabel 8550 1900 0    50   Input ~ 0
+SRCLR
+Text GLabel 8550 2100 0    50   Input ~ 0
+LATCH
+Text GLabel 8550 2200 0    50   Input ~ 0
+OE
+Text GLabel 8550 1800 0    50   Input ~ 0
+SRCLK
+Wire Wire Line
+	8550 1800 8650 1800
+Wire Wire Line
+	8550 1900 8650 1900
+Wire Wire Line
+	8550 2100 8650 2100
+Wire Wire Line
+	8550 2200 8650 2200
+Text GLabel 10450 1900 0    50   Input ~ 0
+SRCLR
+Text GLabel 10450 2100 0    50   Input ~ 0
+LATCH
+Text GLabel 10450 2200 0    50   Input ~ 0
+OE
+Text GLabel 10450 1800 0    50   Input ~ 0
+SRCLK
+Wire Wire Line
+	10450 1800 10550 1800
+Wire Wire Line
+	10450 1900 10550 1900
+Wire Wire Line
+	10450 2100 10550 2100
+Wire Wire Line
+	10450 2200 10550 2200
+Text GLabel 12350 1900 0    50   Input ~ 0
+SRCLR
+Text GLabel 12350 2100 0    50   Input ~ 0
+LATCH
+Text GLabel 12350 2200 0    50   Input ~ 0
+OE
+Text GLabel 12350 1800 0    50   Input ~ 0
+SRCLK
+Wire Wire Line
+	12350 1800 12450 1800
+Wire Wire Line
+	12350 1900 12450 1900
+Wire Wire Line
+	12350 2100 12450 2100
+Wire Wire Line
+	12350 2200 12450 2200
+Text GLabel 4850 4700 2    50   Output ~ 0
+SRCLR
+Text GLabel 4850 4600 2    50   Output ~ 0
+LATCH
+Text GLabel 4850 4800 2    50   Output ~ 0
+OE
+Text GLabel 4850 5000 2    50   Output ~ 0
+SRCLK
+Text GLabel 2850 1600 0    50   Input ~ 0
+SER_IN
+Wire Wire Line
+	2850 1600 2950 1600
+Text GLabel 4850 4900 2    50   Output ~ 0
+SER_IN
+Wire Wire Line
+	4750 5000 4850 5000
+Wire Wire Line
+	4750 4900 4850 4900
+Wire Wire Line
+	4750 4600 4850 4600
+Wire Wire Line
+	4750 4700 4850 4700
+Wire Wire Line
+	4750 4800 4850 4800
+$Comp
+L Connector:Conn_01x04_Female J6
+U 1 1 5DC0BB20
+P 5900 4050
+F 0 "J6" H 5928 4026 50  0000 L CNN
+F 1 "RTC" H 5928 3935 50  0000 L CNN
+F 2 "" H 5900 4050 50  0001 C CNN
+F 3 "~" H 5900 4050 50  0001 C CNN
+	1    5900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4050 5250 4050
+Wire Wire Line
+	5250 4050 5250 3100
+Wire Wire Line
+	5700 3950 5700 2800
+Connection ~ 5700 2800
+Wire Wire Line
+	5700 2800 6950 2800
+Wire Wire Line
+	5700 4150 5400 4150
+Wire Wire Line
+	5400 4150 5400 5600
+Wire Wire Line
+	5400 5600 4750 5600
+Wire Wire Line
+	4750 5700 5500 5700
+Wire Wire Line
+	5500 5700 5500 4250
+Wire Wire Line
+	5500 4250 5700 4250
+NoConn ~ 4750 5900
+NoConn ~ 4750 5800
+NoConn ~ 4750 5500
+NoConn ~ 4750 5400
+NoConn ~ 4750 5300
+NoConn ~ 4750 5200
+NoConn ~ 4750 5100
+NoConn ~ 4750 4500
+NoConn ~ 4750 4400
+NoConn ~ 4750 4300
+NoConn ~ 4750 4200
+NoConn ~ 4750 4100
+NoConn ~ 4750 4000
+NoConn ~ 4750 3900
+NoConn ~ 4750 3800
+NoConn ~ 3400 5100
+NoConn ~ 3400 5000
+NoConn ~ 3400 4300
+Wire Wire Line
+	3400 5850 3150 5850
+Wire Wire Line
+	3150 5850 3150 5750
+Connection ~ 3150 5750
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5DCDC58E
+P 2150 3450
+F 0 "J7" H 2258 3631 50  0000 C CNN
+F 1 "PWR_JACK" H 2258 3540 50  0000 C CNN
+F 2 "" H 2150 3450 50  0001 C CNN
+F 3 "~" H 2150 3450 50  0001 C CNN
+	1    2150 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 3450
+Wire Wire Line
+	3350 3450 3350 3100
+Connection ~ 3150 3550
+Wire Wire Line
+	3150 3550 3150 5750
+$Comp
+L power:+5V #PWR0102
+U 1 1 5DCF2327
+P 2550 3450
+F 0 "#PWR0102" H 2550 3300 50  0001 C CNN
+F 1 "+5V" H 2565 3623 50  0000 C CNN
+F 2 "" H 2550 3450 50  0001 C CNN
+F 3 "" H 2550 3450 50  0001 C CNN
+	1    2550 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2900 3550
+Wire Wire Line
+	2900 3550 3150 3550
+Wire Wire Line
+	3350 2800 5050 2800
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DCF485E
+P 2900 3450
+F 0 "#FLG0101" H 2900 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 2900 3623 50  0000 C CNN
+F 2 "" H 2900 3450 50  0001 C CNN
+F 3 "~" H 2900 3450 50  0001 C CNN
+	1    2900 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3450 2550 3450
+Wire Wire Line
+	2350 3550 2550 3550
+Connection ~ 2550 3450
+Connection ~ 2900 3450
+Wire Wire Line
+	2900 3450 3350 3450
+Wire Wire Line
+	2550 3450 2900 3450
+Connection ~ 2550 3550
+Wire Wire Line
+	2550 3550 2900 3550
+$Comp
+L power:PWR_FLAG #GND0101
+U 1 1 5DD0BC16
+P 2900 3550
+F 0 "#GND0101" H 2900 3625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 3700 50  0000 R CNN
+F 2 "" H 2900 3550 50  0001 C CNN
+F 3 "~" H 2900 3550 50  0001 C CNN
+	1    2900 3550
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

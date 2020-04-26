@@ -1,2 +1,4 @@
 **/fp-info-cache
 **/**.sch-bak
+.DS_Store
+*cache.lib
