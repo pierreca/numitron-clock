@@ -1,5 +1,5 @@
 **/fp-info-cache
-**/**.sch-bak
-**/**.pcb-bak
+**/*.sch-bak
+**/*kicad_pcb-bak
 .DS_Store
-*cache.lib
+**/*cache.lib
